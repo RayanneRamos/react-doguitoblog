@@ -11,10 +11,10 @@ const Cabecalho = () => {
         <span className='menu-hamburger__icone'></span>
       </div>
       <div className='cabecalho-container'>
-        <a href='/' className='flex flex--centro'>
+        <Link to='/' className='flex flex--centro'>
           <img src={imagem} alt='Logo Doguito' className='cabecalho__logo' />
           <h1 className='cabecalho__titulo'>Petshop</h1>
-        </a>
+        </Link>
       </div>
       <nav className='menu-cabecalho'>
         <ul className='menu-itens'>

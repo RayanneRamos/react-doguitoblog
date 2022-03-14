@@ -4,7 +4,6 @@ import React from 'react'
 import '../assets/css/componentes/cartao.css'
 
 const Sobre = () => {
-
   return (
     <main>
       <div className="container">

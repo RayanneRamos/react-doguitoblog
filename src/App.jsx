@@ -6,6 +6,7 @@ import Pagina404 from './paginas/Pagina404';
 import Cabecalho from './components/Cabecalho';
 import Post from './paginas/Post';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Categoria from './paginas/Categoria';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/sobre' element={<Sobre />} />
         <Route path='/posts/:id' element={<Post />} />
+        <Route path='/categoria/:id' element={<Categoria />} />
         <Route path='*' element={<Pagina404 />} />
       </Routes>
     </Router>
